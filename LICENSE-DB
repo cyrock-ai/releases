@@ -1,0 +1,101 @@
+CYROCK.AI DB END USER LICENSE AGREEMENT (EULA) 
+
+IMPORTANT: PLEASE READ THIS END USER LICENSE AGREEMENT (“AGREEMENT”) CAREFULLY BEFORE INSTALLING, DOWNLOADING, ACCESSING, OR USING THE SOFTWARE.
+
+This Agreement is a legally binding contract between you (either an individual or a legal entity, hereinafter referred to as “Licensee” or “You”) and Cyrock.AI GmbH, Postgasse 1, 92637 Weiden, Germany (hereinafter referred to as “Licensor” or “Cyrock.AI”).
+
+By downloading, installing, copying, accessing, or using the proprietary software Cyrock.AI DB (including any of its product variants), You agree to be bound by the terms of this Agreement. If You do not agree to the terms of this Agreement, You must not install, access, copy, or use the Software.
+
+1. Subject Matter of Agreement & Product Variants
+1.1. This Agreement governs the licensing and use of the proprietary database software Cyrock.AI DB (the “Software”), provided by Licensor (further details available at www.cyrock.ai).
+1.2. The Software is offered in three (3) distinct product variants, subject to the specific grant of license:
+• Cyrock.AI DB – Embedded: Designed to run directly embedded within Licensee’s primary software application ("Licensee Application"). The Software and the Licensee Application are compiled, deployed, bundled, and distributed together as a single, unified software package to end users.
+• Cyrock.AI DB Server: Designed to run standalone on a single server or single node (on-premises or in any cloud environment). The user/application connects to the Software via remote APIs or interfaces (e.g., REST, gRPC).
+• Cyrock.AI DB Cluster: Designed to run standalone as a highly distributed cluster on platforms such as Docker, Kubernetes, or equivalent container/orchestration environments (on-premises or in any cloud environment). The user/application connects to the Software via remote APIs or interfaces (e.g., REST, gRPC).
+
+2. Grant of License, Distribution & Operational Metrics
+2.1. Scope of License: Subject to full compliance with the terms of this Agreement and payment of applicable license fees, Licensor grants Licensee a non-exclusive, non-transferable (except as expressly granted in Section 2.2), worldwide, limited license to install, run, and use the specific variant of the Software purchased or authorized by Licensor.
+2.2. Variant-Specific Terms & Distribution Rights:
+• Embedded Variant: Licensor grants Licensee a worldwide, non-exclusive license to embed, integrate, and bundle the Software within the Licensee Application and to distribute, sub-license, and deploy the Software to Licensee’s end users solely as an integrated, non-standalone component of the Licensee Application.
+• Server Variant: Licensor grants Licensee the right to install and run the Software on a single node/server instance (on-premises or cloud) for internal deployment or for powering Licensee's software services.
+• Cluster Variant: Licensor grants Licensee the right to deploy and run the Software in a multi-node clustered environment on container/orchestration platforms (on-premises or cloud) as designated in the order form/license file.
+
+2.3. Reservation of Rights: The Software is licensed, not sold. Licensor retains all title, ownership, copyright, trade secrets, trademarks, and all other intellectual property rights in and to the Software, including any copies, updates, or modifications thereto.
+
+2.4. License Metrics, Environments and Operational Policies: The specific license metrics (including the required number of Compute Units, vCPUs, or nodes), as well as commercial and operational rules regarding Non-Production environments, High Availability (HA) standby nodes, and auto-scaling, shall be defined in the applicable Order Form, License Certificate, or Licensor’s official Licensing & Operational Policy (available at www.cyrock.ai/licensing-policy). In the event of any conflict between this Agreement and an Order Form, the Order Form shall prevail.
+
+2.5. Dynamic Resource Allocation and Elastic On-Demand Bursting: In environments utilizing automated scaling mechanisms (e.g., Kubernetes Horizontal Pod Autoscaler), Licensee may temporarily exceed its committed base capacity ("Elastic On-Demand Bursting"). Any resource usage exceeding the pre-purchased baseline capacity shall be logged, reported, and billed on an hourly consumption basis according to the rates set forth in the Order Form or Licensor’s Licensing & Operational Policy.
+
+3. License Restrictions, Pass-Through Provisions & Third-Party Components
+3.1. Except as expressly permitted by applicable statutory mandatory law (e.g., Section 69e of the German Copyright Act - UrhG), Licensee shall not:
+• Modify, translate, reverse engineer, decompile, disassemble, or attempt to derive the source code or underlying architecture of the Software.
+• Distribute, sell, lease, rent, loan, pledge, or sublicense the Software as a standalone database solution or database-as-a-service (DBaaS) to third parties without prior express written consent from Licensor.
+• Bypass, alter, or defeat any technical protection measures or license key mechanisms implemented within the Software.
+• Remove, obscure, or alter any copyright notices, trademarks, or proprietary rights legends affixed to or contained within the Software.
+
+3.2. Special Restrictions for Embedded Variant & Pass-Through Terms:
+• Licensee shall ensure that all end users receiving the Licensee Application containing the embedded Software are bound by an end user agreement containing restrictions at least as protective of Licensor's intellectual property and liability as those set forth in this Agreement.
+• Under no circumstances may Licensee or any end user extract, separate, isolate, or use the embedded Cyrock.AI DB component independently from the Licensee Application, or expose raw database access, query tools, or direct database interfaces of Cyrock.AI DB to third parties or end users.
+
+3.3. Third-Party & Open Source Software Components: The Software may contain or be delivered with third-party or open-source software components ("FOSS"). Any such FOSS components are subject to their respective third-party license terms. Licensor provides no warranty or indemnity for open-source components beyond what is mandated by statutory law.
+
+4. Delivery, Deployment, Infrastructure & Operational Guidelines
+4.1. The Software is provided via electronic download or digital delivery.
+4.2. Licensee is solely responsible for procuring, configuring, and maintaining the hardware, operating systems, networks, cloud infrastructure, container management platforms (e.g., Docker, Kubernetes), and third-party software required for proper operation of the Software.
+4.3. Compliance with Technical Specifications, Operational Guidelines, and Policies:
+(a) Licensee undertakes to strictly comply with all technical specifications, system requirements, operational guidelines, deployment best practices, and policies (collectively, “Operational Guidelines”) provided by Licensor in the official documentation, release notes, or online portal (e.g., regarding system resources, minimum cache allocation, proper shutdown and grace-period procedures for Cluster Nodes, node scaling, network latency, and backup intervals).
+(b) Impact on Warranty and Liability: Licensor shall not be liable for any defects, performance degradation, data corruption, database instability, or damages resulting directly or indirectly from Licensee’s failure to strictly observe and implement the Operational Guidelines, or from operating the Software outside its specified system environment.
+(c) In the event of a claimed defect or damage, Licensee shall be obliged to prove that such defect or damage was not caused or aggravated by a deviation from or failure to adhere to the Operational Guidelines.
+
+5. Audit Rights
+Licensor reserves the right, upon reasonable prior written notice, to verify Licensee’s compliance with the terms of this Agreement. Licensee agrees to provide reasonable assistance and access to relevant logs or systems solely to verify license compliance.
+
+6. Warranty  
+6.1. If Licensee is a business customer (according to § 14 BGB), the statutory rights for defects apply subject to the modifications in this Section 6.
+6.2. The Software is provided with the functional capabilities described in the official product documentation at the time of delivery. Minor, non-material deviations shall not constitute a defect.
+6.3. Licensor does not warrant that the Software will meet Licensee’s specific business requirements, or that the operation of the Software will be entirely uninterrupted, error-free, or compatible with all hardware and software configurations not specified by Licensor.
+6.4. Remediation of defects shall be at Licensor’s option either by repair or replacement, which may include providing a patch, bug fix, or update.
+
+7. Limitation of Liability 
+PLEASE READ CAREFULLY: This Section defines the maximum liability of Cyrock.AI GmbH permissible under applicable German and EU law.
+7.1. Unlimited Liability: Licensor shall be liable without limitation only for:
+• Intentional misconduct and gross negligence 
+• Culpable injury to life, body, or health;
+• Claims based on the German Product Liability Act;
+• Expressly granted guarantees.
+7.2. Liability for Slight Negligence: In cases of slight or simple negligence, Licensor shall only be liable in the event of a breach of an essential contractual duty. An essential contractual duty is a duty whose performance is essential for the proper execution of the contract and upon whose compliance the contractual partner regularly relies and may rely.
+7.3. Financial Cap for Slight Negligence: In cases of liability under Section 7.2 for breach of essential contractual duties due to slight negligence, Licensor’s total cumulative liability shall be limited strictly to the foreseeable damage typical for this type of contract. The parties agree that this amount shall not exceed the total license fees paid by Licensee to Licensor for the Software during the twelve (12) months preceding the event giving rise to liability.
+7.4. Indirect and Consequential Damages: To the extent permitted by law, Licensor excludes all liability for loss of profits, loss of revenue, business interruption, loss of goodwill, lost data, indirect damages, or consequential damages resulting from the use or inability to use the Software.
+7.5. Data Loss: Licensor shall not be liable for the loss of data unless such loss could not have been prevented by Licensee performing regular, state-of-the-art backups (at least daily).
+7.6. The limitations of liability set forth in this Section 7 apply accordingly to the personal liability of Licensor’s legal representatives, employees, officers, and vicarious agents.
+
+8. Term and Termination
+8.1. This Agreement is effective upon installation or first use of the Software and remains in effect until terminated or until the expiration of the agreed license term.
+8.2. Either party may terminate this Agreement with immediate effect for cause, particularly if the other party materially breaches any provision of this Agreement and fails to remedy such breach within fourteen (14) days after receiving written notice.
+8.3. Upon termination, Licensee shall immediately cease all use of the Software, uninstall all instances, and destroy or return all copies and license keys in its possession. For the Embedded Variant, Licensee must cease distributing any Licensee Applications containing the embedded Software.
+
+9. Governing Law and Jurisdiction
+9.1. Applicable Law: This Agreement and any disputes arising out of or in connection with it shall be governed by, construed, and enforced exclusively in accordance with the laws of the Federal Republic of Germany, excluding its conflict of law provisions and the United Nations Convention on Contracts for the International Sale of Goods (CISG).
+9.2. Place of Jurisdiction: If Licensee is a merchant, a legal entity under public law, or a special fund under public law, the exclusive place of jurisdiction for all disputes arising from or in connection with this Agreement shall be the competent court for Weiden in der Oberpfalz, Germany. Licensor reserves the right to bring action against Licensee at Licensee’s general place of jurisdiction.
+
+10. Telemetry, Usage Data & Air-Gapped Environments
+10.1. The Software may contain automated technical reporting mechanisms that transmit non-personal telemetry data (such as feature usage, performance metrics, deployed node/vCPU count, system performance, and license key validation) to Licensor to verify license compliance, ensure software stability, and improve product functionality. Telemetry data shall under no circumstances include any actual database contents or personal data processed within Licensee's database.
+10.2. Air-Gapped Environments: If Licensee deploys the Software in restricted, isolated, or air-gapped environments without external internet connectivity, Licensee agrees to provide regular system log exports, license verification files, or self-audit reports upon Licensor’s reasonable request to verify license compliance.
+
+11. Export Control and Sanctions Compliance
+11.1. Licensee acknowledges that the Software and related technical data may be subject to foreign and domestic export control, trade sanctions, and embargo regulations, including those of the European Union, the Federal Republic of Germany, and the United States of America.
+11.2. Licensee agrees to strictly comply with all applicable export control laws and regulations. Licensee shall not directly or indirectly export, re-export, transfer, deploy, host, or allow access to the Software to any jurisdiction subject to comprehensive trade sanctions or embargoes, or to any restricted or prohibited parties identified on applicable government sanction lists.
+
+12. Miscellaneous
+12.1. Severability: If any provision of this Agreement is held to be invalid, illegal, or unenforceable under applicable law, such provision shall be enforced to the maximum extent permissible, and the remaining provisions shall continue in full force and effect.
+12.2. Entire Agreement: This Agreement constitutes the entire understanding between the parties regarding the subject matter hereof and supersedes all prior or contemporaneous agreements, understandings, or communications, whether written or oral.
+12.3. Written Form: Amendments or modifications to this Agreement must be made in writing. This also applies to any waiver of this written form requirement.
+
+Version 1.0, October 2026
+
+END OF TERMS AND CONDITIONS
+
+Licensor Details:
+Cyrock.AI GmbH
+Postgasse 1, 92637 Weiden, Germany
+Website: www.cyrock.ai
