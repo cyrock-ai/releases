@@ -1,0 +1,112 @@
+CYROCK.AI KNOWLEDGE FABRIC END USER LICENSE AGREEMENT (EULA)
+
+IMPORTANT: PLEASE READ THIS END USER LICENSE AGREEMENT (“AGREEMENT”) CAREFULLY BEFORE INSTALLING, DOWNLOADING, ACCESSING, DEPLOYING, OR USING THE SOFTWARE PLATFORM.
+
+This Agreement is a legally binding contract between you (either an individual or a legal entity, hereinafter referred to as “Licensee” or “You”) and Cyrock.AI GmbH, Postgasse 1, 92637 Weiden, Germany (hereinafter referred to as “Licensor” or “Cyrock.AI”).
+
+By downloading, deploying (via GitHub, IaC/Infrastructure-as-Code scripts, or Cloud Marketplaces), accessing, or using the proprietary software platform Cyrock.AI Knowledge Fabric, You agree to be bound by the terms of this Agreement. If You do not agree to the terms of this Agreement, You must not install, access, deploy, copy, or use the Software.
+
+1. Subject Matter of Agreement & Platform Overview
+1.1. This Agreement governs the licensing and use of the proprietary no-code AI orchestration platform Cyrock.AI Knowledge Fabric (the “Software” or “Platform”), provided by Licensor (further details available at www.cyrock.ai).
+1.2. Platform Scope and Architecture:
+The Software is a graphical, no-code software platform designed for Retrieval-Augmented Generation (RAG), GraphRAG, and Agentic AI workflows. It is deployed and operated on containerized environments such as Docker or Kubernetes (on-premises or in any cloud environment of Licensee’s choice).
+1.3. The Software infrastructure includes, without limitation:
+• Model Context Protocol (MCP) Server and AI Agent Runtime environments;
+• Elastic Scaling for stateless platform instances;
+• High Availability (HA) cluster and orchestration capabilities;
+• Integrations and connectors for third-party Large Language Models (LLMs), external databases, and third-party software via MCP interfaces;
+• Configurable AI Memory management (supporting third-party databases, with Cyrock.AI DB as the default integrated AI Memory solution, subject to separate licensing terms where applicable).
+1.4. No Embedded Redistribution: Unlike other products offered by Licensor, the Software is not licensed for embedded redistribution as a bundled component within third-party commercial software products.
+
+2. Grant of License, Deployment & Licensing Metrics
+2.1. Scope of License: Subject to full compliance with the terms of this Agreement and payment of applicable license fees, Licensor grants Licensee a non-exclusive, non-transferable, worldwide, limited license to install, deploy, run, and access the Software within Licensee’s own cloud infrastructure, managed cloud account, or on-premises environment.
+2.2. Deployment Methods: Licensee may deploy the Software either via Infrastructure-as-a-Service (IaS) / Infrastructure-as-Code (IaC) deployment scripts into Licensee's designated cloud account, or via official GitHub repositories / container registries authorized by Licensor.
+2.3. Licensing Metrics (Named Users & Agent Hours):
+(a) Named User Licensing: Access to the graphical interface and administrative features of the Software is granted on a "Named User" basis. A Named User is an individual authorized by Licensee to access or configure the Platform. User credentials may not be shared or used by more than one individual at any given time.
+(b) Agent Hours: Execution of AI agents, autonomous workflows, and background task runtimes is metered based on "Agent Hours" allocated per user or purchased in tiers (e.g., 10 Agent Hours per user at specified rates).
+(c) Commercial Details: Specific user quotas, Agent Hour allocations, overage rates, and billing cycles shall be specified in the applicable Order Form, License Key Certificate, or Licensor's official Licensing Policy (available at www.cyrock.ai/licensing-policy).
+2.4. Reservation of Rights: The Software is licensed, not sold. Licensor retains all title, ownership, copyright, trade secrets, trademarks, and all other intellectual property rights in and to the Software, including any core templates, agent runtimes, visual interfaces, updates, or modifications thereto.
+
+3. Third-Party LLM APIs, Data Ownership & Usage Costs
+3.1. Independent Third-Party Provider Relationships: The Software enables dynamic integration and execution of external Large Language Models (LLMs), AI models, external databases, and third-party APIs selected and configured by Licensee at runtime. Licensee acknowledges that Licensor does not provide, host, or control these third-party LLMs or APIs.
+3.2. Sole Responsibility for Third-Party Costs: Licensee is solely responsible for procuring, licensing, and paying all direct or indirect costs, API usage fees, token costs, network traffic, compute charges, and data egress fees charged by third-party LLM providers (e.g., OpenAI, Anthropic, Google Cloud, AWS Bedrock, Azure OpenAI) or cloud infrastructure hosts resulting from the operation of the Software.
+3.3. Disclaimer for Third-Party LLM Performance and Outputs: Licensor shall have no liability or responsibility for:
+• The availability, latency, rate limits, pricing changes, or service interruptions of third-party LLM APIs;
+• The accuracy, safety, bias, hallucinations, copyright compliance, or legality of data, prompts, or outputs generated by third-party LLMs or MCP interfaces executed through the Platform.
+3.4. Data Ownership and No Model Training: Licensor claims no ownership rights over any data, prompts, documents, embeddings, knowledge graphs, context files, or outputs processed or generated by Licensee through the Software. Licensor explicitly guarantees that it shall not use, store, extract, or process Licensee’s data, prompts, or outputs to train, fine-tune, or improve any public or proprietary artificial intelligence or machine learning models owned by Licensor or third parties.
+
+4. License Restrictions, AI Safety & Operational Guidelines
+4.1. Except as expressly permitted by applicable statutory mandatory law (e.g., Section 69e of the German Copyright Act - UrhG), Licensee shall not:
+• Modify, translate, reverse engineer, decompile, disassemble, or attempt to derive the source code, underlying algorithms, or visual builder components of the Software.
+• Distribute, sell, lease, rent, loan, pledge, sublicense, or offer the Software as a standalone white-labeled Software-as-a-Service (SaaS) or AI-Platform-as-a-Service to unauthorized third parties without prior express written consent from Licensor.
+• Bypass, alter, or defeat any technical protection measures, user authentication limits, or license key mechanisms governing Named Users or Agent Hours.
+• Remove, obscure, or alter any copyright notices, trademarks, or proprietary rights legends contained within the Software interface or documentation.
+4.2. AI Safety & Acceptable Use: Licensee agrees not to use the AI Agent Runtime or MCP Server interfaces to generate, process, or transmit content that violates applicable laws, infringes third-party intellectual property rights, facilitates cyberattacks, or automates malicious, deceptive, or illegal operations.
+4.3. Autonomous AI Agents, MCP Execution, Custom Code & Safety Protocols:
+(a) Licensee acknowledges that the Software facilitates autonomous agentic workflows and automated third-party system execution via Model Context Protocol (MCP) interfaces. Licensee is solely responsible for configuring appropriate access controls, rate limits, action approvals, and "human-in-the-loop" verification mechanisms to prevent unauthorized, unintended, or looping agent executions.
+(b) Licensor shall not be liable for any unauthorized database modifications, system changes, data deletions, or unexpected API charges resulting from autonomous agent execution or misconfigured MCP interfaces created by Licensee.
+(c) Third-Party and Custom Coded Agents / MCP Extensions: If Licensee imports, integrates, executes, or connects custom-coded agents, scripts, prompt templates, or third-party Model Context Protocol (MCP) tools/servers into the Software, Licensee does so at its sole risk. Licensor exercises no control over third-party agent code and accepts no liability for malware, backdoors, security vulnerabilities, or infrastructure damage caused by external agent code.
+(d) Recursive Agent Execution and Infrastructure Impact: Licensee is solely responsible for implementing technical safeguards (including execution limits, timeout conditions, depth thresholds, and recursion controls) to prevent agents from entering unintended infinite loops, self-replicating, or consuming excessive infrastructure resources.
+(e) Indirect Prompt Injections & Alignment Failures: Licensor shall not be liable for agent alignment failures, jailbreaks, or unauthorized actions resulting from indirect prompt injections, malicious data inputs, or adversarial content embedded within processed documents, vector databases, or external APIs.
+(f) Attribution of Autonomous Actions: Any command, database query, system modification, transaction, communication, or code execution performed by an AI agent deployed within Licensee's Knowledge Fabric environment shall be legally deemed an act performed directly by Licensee. Licensee remains fully responsible for all real-world or digital impacts resulting from autonomous agent outputs.
+4.4. Knowledge Graph and RAG Output Disclaimer: Licensee is solely responsible for verifying the accuracy, completeness, and appropriateness of all RAG embeddings, GraphRAG knowledge graphs, and AI-generated outputs before acting upon them. Licensor provides no warranty regarding the factual correctness or absence of hallucinations in outputs derived from third-party LLMs or knowledge extraction pipelines.
+4.5. High-Risk Applications & EU AI Act Compliance: Licensee agrees not to deploy or use the Software in high-risk environments where failure or AI hallucination could directly lead to death, personal injury, severe environmental damage, or critical infrastructure failure (e.g., medical devices, autonomous weapons, nuclear facilities). Licensee is solely responsible for ensuring its AI workflows and deployments comply with all applicable AI regulations, including the European Union Artificial Intelligence Act (EU AI Act).
+
+5. Delivery, Deployment, Infrastructure & Operational Guidelines
+5.1. Delivery: The Software is provided via electronic access, official container registries, or authorized GitHub repositories.
+5.2. Infrastructure Management: Licensee is solely responsible for procuring, configuring, securing, and maintaining the container environments (Docker, Kubernetes), host operating systems, network ingress/egress, security groups, and cloud infrastructure required for proper operation of the Software.
+5.3. Compliance with Operational Guidelines:
+(a) Licensee undertakes to strictly comply with all technical specifications, deployment architecture guidelines, scaling policies, and operational best practices (collectively, “Operational Guidelines”) provided by Licensor in official documentation or release notes.
+(b) Impact on Warranty and Liability: Licensor shall not be liable for any performance degradation, system failure, agent runtime crashes, or data corruption resulting directly or indirectly from misconfigured Kubernetes clusters, improper Docker container limits, network latency between the Software and external LLMs/databases, or operating outside specified system requirements.
+
+6. Audit Rights
+Licensor reserves the right, upon reasonable prior written notice, to verify Licensee’s compliance with the terms of this Agreement (including Named User counts and Agent Hour logs). Licensee agrees to provide reasonable assistance and access to license administration logs or system verification reports solely to verify compliance.
+
+7. Warranty
+7.1. If Licensee is a business customer (according to § 14 BGB), the statutory rights for defects apply subject to the modifications in this Section 7.
+7.2. The Software is provided with the functional capabilities described in the official product documentation at the time of delivery. Minor, non-material deviations shall not constitute a defect.
+7.3. Licensor does not warrant that the Software will meet Licensee’s specific business or AI application requirements, or that the operation of the Software will be entirely uninterrupted, error-free, or compatible with all past or future versions of third-party LLMs, APIs, or MCP endpoints.
+7.4. Remediation of defects shall be at Licensor’s option either by repair or replacement, which may include providing a patch, bug fix, or software update.
+
+8. Limitation of Liability
+PLEASE READ CAREFULLY: This Section defines the maximum liability of Cyrock.AI GmbH permissible under applicable German and EU law.
+8.1. Unlimited Liability: Licensor shall be liable without limitation only for:
+• Intentional misconduct and gross negligence;
+• Culpable injury to life, body, or health;
+• Claims based on the German Product Liability Act;
+• Expressly granted guarantees.
+8.2. Liability for Slight Negligence: In cases of slight or simple negligence, Licensor shall only be liable in the event of a breach of an essential contractual duty. An essential contractual duty is a duty whose performance is essential for the proper execution of the contract and upon whose compliance the contractual partner regularly relies and may rely.
+8.3. Financial Cap for Slight Negligence: In cases of liability under Section 8.2 for breach of essential contractual duties due to slight negligence, Licensor’s total cumulative liability shall be limited strictly to the foreseeable damage typical for this type of contract. The parties agree that this amount shall not exceed the total license fees paid by Licensee to Licensor for the Software during the twelve (12) months preceding the event giving rise to liability.
+8.4. Indirect and Consequential Damages: To the extent permitted by law, Licensor excludes all liability for loss of profits, loss of revenue, business interruption, loss of goodwill, lost data, unpredicted third-party LLM API token costs, indirect damages, or consequential damages resulting from the use or inability to use the Software.
+8.5. Data Loss & AI Memory Backups: Licensor shall not be liable for the loss of data or loss of AI Memory state unless such loss could not have been prevented by Licensee performing regular, state-of-the-art backups (at least daily) of its underlying databases, persistent volumes, and configuration repositories.
+8.6. The limitations of liability set forth in this Section 8 apply accordingly to the personal liability of Licensor’s legal representatives, employees, officers, and vicarious agents.
+
+9. Term and Termination
+9.1. This Agreement is effective upon deployment, installation, or first use of the Software and remains in effect until terminated or until the expiration of the agreed license term.
+9.2. Either party may terminate this Agreement with immediate effect for cause, particularly if the other party materially breaches any provision of this Agreement and fails to remedy such breach within fourteen (14) days after receiving written notice.
+9.3. Upon termination, Licensee shall immediately cease all access and use of the Software, tear down and remove all containerized instances, and destroy or return all license keys and access credentials in its possession.
+
+10. Governing Law and Jurisdiction
+10.1. Applicable Law: This Agreement and any disputes arising out of or in connection with it shall be governed by, construed, and enforced exclusively in accordance with the laws of the Federal Republic of Germany, excluding its conflict of law provisions and the United Nations Convention on Contracts for the International Sale of Goods (CISG).
+10.2. Place of Jurisdiction: If Licensee is a merchant, a legal entity under public law, or a special fund under public law, the exclusive place of jurisdiction for all disputes arising from or in connection with this Agreement shall be the competent court for Weiden in der Oberpfalz, Germany. Licensor reserves the right to bring action against Licensee at Licensee’s general place of jurisdiction.
+
+11. Telemetry, Usage Data & Air-Gapped Environments
+11.1. The Software may contain automated technical reporting mechanisms that transmit non-personal telemetry data (such as feature usage, active Named User counts, executed Agent Hours, system performance, and license validation status) to Licensor to verify license compliance, ensure stability, and improve product functionality. Telemetry data shall under no circumstances include any actual prompts, context data, vector embeddings, database records, or personal data processed within Licensee's AI workflows.
+11.2. Air-Gapped Environments: If Licensee deploys the Software in restricted, isolated, or air-gapped environments without external internet connectivity, Licensee agrees to provide regular system audit logs, license verification files, or self-audit reports upon Licensor’s reasonable request to verify compliance with Named User and Agent Hour quotas.
+12. Export Control and Sanctions Compliance
+12.1. Licensee acknowledges that the Software and related technical data may be subject to foreign and domestic export control, trade sanctions, and embargo regulations, including those of the European Union, the Federal Republic of Germany, and the United States of America.
+12.2. Licensee agrees to strictly comply with all applicable export control laws and regulations. Licensee shall not directly or indirectly export, re-export, transfer, deploy, host, or allow access to the Software to any jurisdiction subject to comprehensive trade sanctions or embargoes, or to any restricted or prohibited parties identified on applicable government sanction lists.
+
+13. Miscellaneous
+13.1. Severability: If any provision of this Agreement is held to be invalid, illegal, or unenforceable under applicable law, such provision shall be enforced to the maximum extent permissible, and the remaining provisions shall continue in full force and effect.
+13.2. Entire Agreement: This Agreement constitutes the entire understanding between the parties regarding the subject matter hereof and supersedes all prior or contemporaneous agreements, understandings, or communications, whether written or oral.
+13.3. Written Form: Amendments or modifications to this Agreement must be made in writing. This also applies to any waiver of this written form requirement.
+
+Version 1.0, October 2026
+
+END OF TERMS AND CONDITIONS
+
+Licensor Details:
+Cyrock.AI GmbH
+Postgasse 1, 92637 Weiden, Germany
+Website: www.cyrock.ai
